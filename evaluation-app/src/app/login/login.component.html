@@ -1,0 +1,25 @@
+<div class="contentContainer">
+    <div class="loginform">
+        <div class="p-fluid grid">
+            <div class="field col-12 md:col-4">
+                <span class=" p-input-icon-left">
+                <i class="pi pi-user"></i>
+                <input type="text" id="login" pInputText [(ngModel)]="login" placeholder="Login">
+            </span>
+
+                <span class="p-input-icon-left">
+                <i class="pi pi-key"></i>
+                <input type="password" id="login" pInputText [(ngModel)]="password" placeholder="Password">
+            </span>
+
+                <button pButton pRipple type="button" label="Log in" class="p-button-raised p-button-success" (click)="onSubmit()"></button>
+                <p-divider></p-divider>
+                <div class="forgetPass">
+                    <p>Forgot your password ?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<p-toast></p-toast>

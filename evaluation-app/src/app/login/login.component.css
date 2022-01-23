@@ -1,0 +1,44 @@
+.loginform {
+    display: block;
+    margin-top: 10%;
+    margin-left: 35%;
+    padding: 50px;
+    width: 30%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #e6e4e4, 0 6px 20px 0 #e6e4e4;
+    background-color: white;
+}
+
+.contentContainer {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: #f0f2f5;
+    position: absolute;
+}
+
+span {
+    margin: 10px;
+    padding-right: 20px;
+}
+
+input {
+    height: 60px;
+}
+
+.p-button-success {
+    width: 410px;
+    height: 60px;
+    margin-left: 10px;
+    /* padding-right: 50px; */
+}
+
+.forgetPass {
+    color: #6262f0;
+    cursor: pointer;
+}
+
+.forgetPass:hover {
+    text-decoration: underline;
+}
